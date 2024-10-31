@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Manipulación del DOM</title>
+</head>
+<body>
+  <button onclick="cambiarTexto()">Click aquí</button> <!-- Botón que llama a la función -->
+  <p id="miParrafo">Texto original</p> <!-- Párrafo cuyo texto será cambiado -->
+
+  <script>
+    function cambiarTexto() {
+      document.getElementById("miParrafo").innerText = "Texto cambiado"; // Cambia el texto del párrafo
+    }
+  </script>
+</body>
+</html>
